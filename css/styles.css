@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root
+{
+    --normal-text: #212121;
+    --select-color: white;
+    --select-bgcolor: #2196F3;
+    --contact-us-color: #757575;
+    --sentence-color: #FFFFFF;
+    --logo-color-blue: #2196F3;
+    --logo-color-black: #000000;
+    --logo-color-white: #FFFFFF;
+    --content-color: #757575;
+    --address-color: #FFFFFF;
+    --bgcolor-grey: #2F303A;
+    --bgcolor-white: #F5F4FA;
+    --bgcolor-light-grey: #ECECEC;
+    --people_bg: #F5F4FA;
+    --border: none;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: var(--normal-text);
+    letter-spacing: 0.03em;
+    width: 1600px
+}
+
+.header
+{
+    background-color: var(--bgcolor-light-grey);
+    width: 1600px;
+    height: 80px;
+}
+.logo-web
+{
+    color: var(--logo-color-blue)
+}
+.logo-studio
+{
+    color: var(--logo-color-black)
+}
+.logo-studio-white
+{
+    color: var(--logo-color-white)
+}
+.main-logo
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px; 
+    font-weight: bold;
+}
+
+.navigation, .contact-us
+{
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+
+.contact-us 
+{
+    color: var(--contact-us-color);
+    border: var(--border);
+}
+.contact-us:hover 
+{
+    color: var(--select-bgcolor);
+}
+.contact-us:focus 
+{
+    color: var(--select-bgcolor);
+}
+
+
+#solutions
+{
+    font-size: 44px;
+    color: var(--sentence-color);
+    letter-spacing: 0,06em;
+}
+.button-solutions
+{
+    background-color: var(--bgcolor-grey);
+    height: 600px;
+    text-align: center;
+}
+
+.about-us, .our-people
+{
+    font-size: 36px;
+}
+
+.title-profile
+{
+    text-transform: uppercase;
+    font-weight: 14px;
+}
+
+.profile-content
+{
+    color: var(--content-color);
+    font-size: 14px;
+}
+
+
+.main-button
+{
+        color: var(--bgcolor-white);
+        background-color: var(--select-bgcolor);
+        border: var(--border);
+        cursor: pointer;
+        width: 200px;
+        height: 50px;
+}
+.main-button:hover 
+{
+    color: var(--select-bgcolor);
+    background-color: var(--bgcolor-white);
+    border: var(--border);
+    cursor: pointer;
+}
+.main-button:focus 
+{
+    color: var(--select-bgcolor);
+    background-color: var(--bgcolor-white);
+    border: var(--border);
+    cursor: pointer;
+}
+
+button
+{
+    color: var(--normal-text);
+    background-color: var(--bgcolor-white);
+    border: var(--border);
+    cursor: pointer;
+    width: 93px;
+    height: 38px;
+}
+button:hover 
+{
+    color: var(--select-color);
+    background-color: var(--select-bgcolor);
+    cursor: pointer;
+}
+button:focus 
+{
+    color: var(--select-color);
+    background-color: var(--select-bgcolor);
+    cursor: pointer;
+}
+
+
+a
+{
+    color: var(--normal-text);
+    text-decoration: none;
+    border: var(--border);
+    font-style: normal;
+}
+a:hover 
+{
+    color: var(--select-bgcolor);
+    text-decoration: none;
+}
+a:focus 
+{
+    color: var(--select-bgcolor);
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+
+.people
+{
+    background-color: var(--people_bg);
+}
+.name
+{
+    font-weight: Medium;
+    color: var(--normal-text);
+    text-decoration: none;
+}
+.profession
+{
+    color: var(--content-color)
+}
+
+
+.keyword 
+{
+    font-size: 18px;
+    font-weight: Bold;
+    color: var(--normal-text);
+    text-decoration: none;
+}
+
+.keyword-content
+{
+    color: var(--content-color);
+    letter-spacing: 0.06em;
+}
+
+.footer-informations 
+{
+    background-color: var(--bgcolor-grey);
+    height: 252px;
+}
+
+.address
+{
+    color: var(--address-color);
+    font-size: 14px;
+    width: 252px;
+}
