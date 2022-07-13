@@ -30,6 +30,11 @@ body
     width: 1600px
 }
 
+.container{
+    width: 1200px;
+    padding: 15px;
+    margin: auto;
+}
 .header
 {
     background-color: var(--bgcolor-light-grey);
@@ -90,11 +95,25 @@ body
     text-align: center;
 }
 
-.about-us, .our-people
+.about-us
 {
     font-size: 36px;
+    text-align: center;
 }
 
+.our-people {
+    font-size: 36px;
+    line-height: 1.166em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+}
+
+.our-profile{
+    display: inline;
+    padding: 15px;
+    
+}
 .title-profile
 {
     text-transform: uppercase;
@@ -185,15 +204,40 @@ ul
 }
 .name
 {
-    font-weight: Medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187em;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--normal-text);
-    text-decoration: none;
+
 }
 .profession
 {
-    color: var(--content-color)
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.187em;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--content-color);
 }
 
+.box-people {
+    background: #FFFFFF;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 30px;
+
+}
+
+.position-people {
+    display: flex;
+    margin: 0;
+    padding-left: 185px;
+    padding-top: 50px;
+}
 
 .keyword 
 {
@@ -215,9 +259,24 @@ ul
     height: 252px;
 }
 
+.padding-footer {
+    padding-top: 60px;
+}
+
 .address
 {
     color: var(--address-color);
+    font-weight: 400;
     font-size: 14px;
-    width: 252px;
+    line-height: 1.174em;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+}
+
+.address-position {
+    margin: 0;
+    padding: 0;
+    padding-left: 215px;
+    padding-top: 20px;
+
 }
